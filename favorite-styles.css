@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('css2?family=Acme&display=swap');
+@import url('url('css2?family=Acme&display=swap')css2?family=Calistoga&display=swap');
+
+
+body {
+	font-family: 'Acme';
+	font-weight: 400;
+    border-right: 15px solid #991618;
+    border-left: 15px solid #991618;
+}
+.year {
+    width: 20%;
+    text-align: center;
+    font-style: italic;
+}
+blockquote {
+	font-size: .9em;
+	font-style: italic;
+}
+
+blockquote cite {
+	text-align: right;
+	display: block;
+	font-weight: bold;
+	font-style: normal;
+}
+h1, h2, h3 {
+	font-family: 'Calistoga';
+}
+
+.btn-link, a {
+  color: #fdc64f
+;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn-link:hover, a:hover {
+    color: #991618;
+    text-decoration: strikethrough;
+}
+
+.bg-dark {
+    background-color: #991618 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+    color: #fdc64f
+;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.navbar-nav .nav-item {
+    border: 1px solid #ffffff;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.navbar-brand {
+	margin-top: .5em;
+}
+
+header {
+    background-color: #991618;
+    background-image: url(Web%20Page%20Banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70% auto;
+    height: 250px;
+}
+
+header h2 {
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center;
+    line-height: 1.2em;
+    margin-top: 1em;
+	text-transform: uppercase;
+}
+
+header p {
+    color: #ffffff;
+    font-size: 150%;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1em;
+    letter-spacing: 0.4em;
+    font-style: normal;
+}
+
+.bubble p {
+	color: #000000;
+	margin-top: 5.75em;
+	margin-left: -5%;
+	margin-right: 26%;
+	text-align: left;
+	font-size: .75em;
+	line-height: 1.5em;
+	letter-spacing: normal;
+}
+
+nav .container {
+    border-bottom: 2px solid #991618;
+    padding-bottom: 10px;
+}
+
+
+footer {
+    padding-top: 5px;
+    background-color: #991618;
+    color: #ffffff;
+}
+
+address {
+    color: #ffffff;
+}
